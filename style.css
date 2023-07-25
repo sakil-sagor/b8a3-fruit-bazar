@@ -1,0 +1,26 @@
+/* Container for input field and icon */
+.input-container-search {
+    position: relative;
+
+}
+
+
+
+/* Search icon */
+.search-icon-search {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    /* Adjust the distance from the right edge of the input field */
+    transform: translateY(-50%);
+    /* Add styling for the icon (SVG or icon font) */
+    border-radius: 27px;
+}
+
+/* Style the input field */
+input[type="text"] {
+    padding: 8px 30px;
+    /* Adjust padding to make space for the icon */
+    border: 1px solid #ccc;
+    border-radius: 27px;
+}
