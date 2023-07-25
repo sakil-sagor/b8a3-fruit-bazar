@@ -22,3 +22,12 @@ input[type="text"] {
 .dropdown .dropdown-content {
     top: 30px;
 }
+
+.carousel {
+    position: relative;
+}
+
+.all-fruits {
+    position: absolute;
+    bottom: 0;
+}
