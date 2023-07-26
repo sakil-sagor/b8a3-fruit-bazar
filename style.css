@@ -1,10 +1,7 @@
-/* Container for input field and icon */
 .input-container-search {
     position: relative;
-
 }
 
-/* Search icon */
 .search-icon-search {
     position: absolute;
     top: 50%;

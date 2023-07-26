@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fruit Bazar -- Welcome to our new fruit world.</title>
 
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 
     <!-- google fonts poppins -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -192,20 +192,36 @@
                 <div>
                     <div class="grid grid-flow-col gap-5 text-center justify-center  auto-cols-max">
                         <div class="flex flex-col">
-                            <span class="countdown font-mono text-5xl">
-                                <span style="--value:15;"></span>:
+                            <span class="countdown font-mono text-5xl flex items-center space-x-2">
+                                <span style="--value:15;"></span> <svg class="text-xl "
+                                    xmlns="http://www.w3.org/2000/svg" height="1em"
+                                    viewBox="0 0 128 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                    <path
+                                        d="M64 360a56 56 0 1 0 0 112 56 56 0 1 0 0-112zm0-160a56 56 0 1 0 0 112 56 56 0 1 0 0-112zM120 96A56 56 0 1 0 8 96a56 56 0 1 0 112 0z" />
+                                </svg>
+
                             </span>
                             days
                         </div>
                         <div class="flex flex-col">
-                            <span class="countdown font-mono text-5xl">
-                                <span style="--value:10;"></span>:
+                            <span class="countdown font-mono text-5xl flex items-center space-x-2">
+                                <span style="--value:10;"></span> <svg class="text-xl "
+                                    xmlns="http://www.w3.org/2000/svg" height="1em"
+                                    viewBox="0 0 128 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                    <path
+                                        d="M64 360a56 56 0 1 0 0 112 56 56 0 1 0 0-112zm0-160a56 56 0 1 0 0 112 56 56 0 1 0 0-112zM120 96A56 56 0 1 0 8 96a56 56 0 1 0 112 0z" />
+                                </svg>
                             </span>
                             hours
                         </div>
                         <div class="flex flex-col">
-                            <span class="countdown font-mono text-5xl">
-                                <span style="--value:24;"></span>:
+                            <span class="countdown font-mono text-5xl flex items-center space-x-2">
+                                <span style="--value:24;"></span>
+                                <svg class="text-xl " xmlns="http://www.w3.org/2000/svg" height="1em"
+                                    viewBox="0 0 128 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                    <path
+                                        d="M64 360a56 56 0 1 0 0 112 56 56 0 1 0 0-112zm0-160a56 56 0 1 0 0 112 56 56 0 1 0 0-112zM120 96A56 56 0 1 0 8 96a56 56 0 1 0 112 0z" />
+                                </svg>
                             </span>
                             min
                         </div>
@@ -455,7 +471,7 @@
         </section>
         <!-- team area start here  -->
         <section class="container m-auto px-2 lg:px-0 my-12 text-center ">
-            <div class="team-section bg-[url('/images/team.png')] center bg-no-repeat bg-cover text-white  ">
+            <div class="team-section bg-[url('images/team.png')] center bg-no-repeat bg-cover text-white  ">
                 <div class="space-y-8 bg-black opacity-70 py-20">
                     <h2 class="text-4xl font-bold">Meet the team section</h2>
                     <p class="">Contrary to popular belief, is not simply random text. It has roots in a piece of
@@ -536,15 +552,15 @@
         <section class="container m-auto px-2  my-12 text-center ">
             <div class="space-y-12">
                 <div class=" text-center">
-                    <h2 class="text-4xl font-bold">Meet the team section</h2>
-                    <p class="">Contrary to popular belief, is not simply random text. It has roots in a piece of
+                    <h2 class="text-4xl font-bold">Why Choose Us</h2>
+                    <p class="mt-4">Contrary to popular belief, is not simply random text. It has roots in a piece of
                         classical
                         <br class="hidden md:block"> Latin literature from 45 BC, making it over 2000 years old.
                     </p>
                 </div>
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-                    <div class="space-y-4 text-center md:text-left">
-                        <div class="flex space-x-4 items-start">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4 ">
+                    <div class="space-y-4 text-center md:text-left row-start-2 md:row-start-1">
+                        <div class="md:flex  space-x-4 items-start">
                             <div class="inline-block p-4 bg-gray-200 rounded-full">
                                 <svg class="" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                     viewBox="0 0 24 24" fill="none">
@@ -555,14 +571,14 @@
                             </div>
                             <div class="space-y-2">
                                 <h4 class="text-xl font-bold">Dedicated Team</h4>
-                                <hr class="w-3/6">
+                                <hr class="w-3/6 mx-auto md:mx-0">
                                 <p class="">
                                     Professional employees are there for you to pick the most amazing and fresh fruits.
                                 </p>
                             </div>
 
                         </div>
-                        <div class="flex space-x-4 items-start">
+                        <div class="md:flex  space-x-4 items-start">
                             <div class="inline-block p-4 bg-gray-200 rounded-full">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none">
@@ -573,14 +589,14 @@
                             </div>
                             <div class="space-y-2">
                                 <h4 class="text-xl font-bold">Fresh is Best</h4>
-                                <hr class="w-3/6">
+                                <hr class="w-3/6 mx-auto md:mx-0">
                                 <p class="">
                                     Professional employees are there for you to pick the most amazing and fresh fruits.
                                 </p>
                             </div>
 
                         </div>
-                        <div class="flex space-x-4 items-start">
+                        <div class="md:flex  space-x-4 items-start">
                             <div class="inline-block p-4 bg-gray-200 rounded-full">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none">
@@ -599,7 +615,7 @@
                             </div>
                             <div class="space-y-2">
                                 <h4 class="text-xl font-bold">Gift Certificates</h4>
-                                <hr class="w-3/6">
+                                <hr class="w-3/6 mx-auto md:mx-0">
                                 <p class="">
                                     Professional employees are there for you to pick the most amazing and fresh fruits.
                                 </p>
@@ -607,19 +623,19 @@
 
                         </div>
                     </div>
-                    <div>
+                    <div class="">
                         <img src="images/whychoose1.png" alt="">
                     </div>
-                    <div class="space-y-4 text-center md:text-right">
-                        <div class="flex space-x-4 items-start ">
-                            <div class="space-y-2">
+                    <div class="space-y-4 text-center md:text-right ">
+                        <div class="flex flex-wrap justify-center md:flex-nowrap   space-x-4 items-start">
+                            <div class="space-y-2 order-2 md:order-1">
                                 <h4 class="text-xl font-bold">Dedicated Team</h4>
                                 <hr class="w-3/6 inline-block">
                                 <p class="">
                                     Professional employees are there for you to pick the most amazing and fresh fruits.
                                 </p>
                             </div>
-                            <div class="inline-block p-4 bg-gray-200 rounded-full">
+                            <div class="inline-block p-4 bg-gray-200 rounded-full order-1 md:order-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none">
                                     <g clip-path="url(#clip0_13_3336)">
@@ -664,15 +680,15 @@
 
 
                         </div>
-                        <div class="flex space-x-4 items-start">
-                            <div class="space-y-2">
+                        <div class="flex flex-wrap justify-center md:flex-nowrap   space-x-4 items-start">
+                            <div class="space-y-2 order-2 md:order-1">
                                 <h4 class="text-xl font-bold">Sustainable Practice</h4>
                                 <hr class="w-3/6 inline-block">
                                 <p class="">
                                     Professional employees are there for you to pick the most amazing and fresh fruits.
                                 </p>
                             </div>
-                            <div class="inline-block p-4 bg-gray-200 rounded-full">
+                            <div class="inline-block p-4 bg-gray-200 rounded-full order-1 md:order-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none">
                                     <path
@@ -686,16 +702,15 @@
 
 
                         </div>
-                        <div class="flex space-x-4 items-start">
-
-                            <div class="space-y-2">
+                        <div class="flex flex-wrap justify-center md:flex-nowrap   space-x-4 items-start">
+                            <div class="space-y-2 order-2 md:order-1">
                                 <h4 class="text-xl font-bold">The Benefits Only</h4>
                                 <hr class="w-3/6 inline-block">
                                 <p class="">
                                     Professional employees are there for you to pick the most amazing and fresh fruits.
                                 </p>
                             </div>
-                            <div class="inline-block p-4 bg-gray-200 rounded-full">
+                            <div class="inline-block p-4 bg-gray-200 rounded-full order-1 md:order-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none">
                                     <path
