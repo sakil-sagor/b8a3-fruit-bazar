@@ -28,13 +28,13 @@ input[type="text"] {
 .all-fruits {
     position: absolute;
     bottom: -20%;
-    left: 20%;
+    left: 8%;
 }
 
 @media only screen and (max-width: 1279px) {
     .all-fruits {
         bottom: -30%;
-        left: 13%;
+
     }
 }
 
