@@ -21,13 +21,28 @@ input[type="text"] {
 
 .dropdown .dropdown-content {
     top: 30px;
+    margin-bottom: 300px;
 }
 
-.carousel {
+.carousel-area-main {
     position: relative;
 }
 
 .all-fruits {
     position: absolute;
-    bottom: 0;
+    bottom: -20%;
+    left: 20%;
+}
+
+@media only screen and (max-width: 1279px) {
+    .all-fruits {
+        bottom: -30%;
+        left: 13%;
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .all-fruits {
+        display: none;
+    }
 }
